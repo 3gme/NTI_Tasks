@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: blueviolet;
+}
+
+table{
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+td{
+    padding: 0%;
+    margin: 0%;
+    width: 25rem;
+}
+
+#Maindiv{
+    padding: 0% 0%;
+    height: 400px;
+    width: 50rem;
+    background-color: rgba(255, 255, 255, 0.422);
+    margin: 5% auto;
+    text-align: center;
+}
+
+#Leftdiv{
+    margin-left: 0;
+    background-color: rgb(0, 153, 248);
+    border: rgb(0, 153, 248) 2px solid;
+    outline: 2px rgb(0, 153, 248) solid;
+}
+
+
+
+#Rightdiv{
+    border: 2px white solid;
+    outline: 2px white solid;
+    background-color: #fff;
+}
+
+
+
+#Rightdiv input{
+    
+}
+#Rightdiv textarea{
+    height: 18%;
+}
+
+#button{
+    background-color: rgb(0, 153, 248);
+    border: none; 
+    border-radius: 20px;
+    width: 150px;
+    height:40px;
+}
+
+#Leftdiv span{
+    margin-top: 6;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #fff;
+}
+#Leftdiv p{
+    font-size: large;
+    color: #fff;
+}
+
+.inner_Leftdiv{
+    margin-top: 20%;
+}
+
+.inputs{
+    width: 70%;
+    margin-bottom: .6rem;
+    padding: 3px;
+    border: none;
+    background-color: rgb(208, 204, 204);
+    height: 8%;
+}
+
+.insideDiv{
+    padding-top: 7%;
+    height: 400px;
+    width:  25rem;
+}
+.centertext{
+    text-align: center;
+}
