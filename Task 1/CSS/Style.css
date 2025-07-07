@@ -18,33 +18,31 @@ td{
 
 #Maindiv{
     padding: 0% 0%;
-    height: 400px;
-    width: 50rem;
-    background-color: rgba(255, 255, 255, 0.422);
+    height: 441px;
+    width: 51.2rem;
+    background-color: rgba(245, 242, 242, 0.318);
     margin: 5% auto;
     text-align: center;
 }
 
 #Leftdiv{
-    margin-left: 0;
+    margin-left: 0%;
+    margin-right: 4px;
     background-color: rgb(0, 153, 248);
     border: rgb(0, 153, 248) 2px solid;
-    outline: 2px rgb(0, 153, 248) solid;
+    outline: 5px rgb(0, 153, 248) solid;
 }
 
 
 
 #Rightdiv{
     border: 2px white solid;
-    outline: 2px white solid;
+    outline: 5px white solid;
     background-color: #fff;
 }
 
 
 
-#Rightdiv input{
-    
-}
 #Rightdiv textarea{
     height: 18%;
 }
@@ -61,11 +59,15 @@ td{
     margin-top: 6;
     font-size: xx-large;
     font-weight: bold;
-    color: #fff;
 }
+
 #Leftdiv p{
     font-size: large;
+}
+
+.whitetextcolor{
     color: #fff;
+
 }
 
 .inner_Leftdiv{
@@ -77,7 +79,7 @@ td{
     margin-bottom: .6rem;
     padding: 3px;
     border: none;
-    background-color: rgb(208, 204, 204);
+    background-color: rgb(221, 217, 217);
     height: 8%;
 }
 
