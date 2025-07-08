@@ -1,0 +1,304 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    height: 4000px;
+}
+
+.inlineblock{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.backgroundtest{
+    background-color: gray;
+}
+
+.uppadding{
+    padding-top: 1%;
+}
+
+.verticalalignbuttom{
+    vertical-align: bottom;
+}
+
+.verticalaligntop{
+    display: inline;
+    vertical-align: top;
+}
+
+.bigfont{
+    font-size: 1.5rem;
+}
+
+.addfontfamily{
+    font-family: "Inter", sans-serif;;
+}
+
+.muted{
+    color: rgb(193, 192, 192);
+}
+
+
+#first_div img{
+  width: 49%;
+  height: 6rem;
+  margin-left: 3rem;
+}
+
+.lowerborder{
+    border-bottom: 3px solid lightgray;
+}
+
+#socialmedia{
+    width: 30%;
+    height: fit-content;
+    margin-left: 4%;
+    padding-left: 3%;
+}
+
+/* second page */
+
+#second-section{
+    margin-top: 6%;
+    margin-left: 0;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.heightinpx{
+    height: 400px;
+}
+
+#left{
+    width: 15%;
+    box-sizing: border-box;
+    margin-left: 4%;
+}
+
+#middle{
+    padding-left: 2.3rem;
+    width: 45%;
+    box-sizing: border-box;
+    padding-top: 0%;
+    justify-content: flex-start;
+}
+
+h2 , h3{
+    padding: 0%;
+    margin: 0%;   
+}
+#middle p{
+    line-height: 130%;
+}
+
+#right{
+    width: 30%;
+}
+
+#second-section button{
+    display: block;
+    width: 60%;
+    height :8.2rem;
+    margin-left: 20%;
+    margin-top: 0%;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.widehr{
+    color: lightgray;
+    margin-top:5%;
+}
+
+.topbuttom{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+}
+.lastbuttom{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+}
+
+.orangebackground{
+    background-color: orange;
+}
+
+.darkgraybackground{
+    background-color: rgb(65, 65, 65);
+}
+
+.margintopy{
+    margin-top: 9%;
+}
+
+#download{
+    width: 30% !important;
+    height: 3rem !important;
+    margin-top: 3rem !important;
+    margin-left: 0% !important;
+    border-radius: 10px;
+}
+
+
+
+.main-img {
+    display: block;
+}
+
+.reflection-img {
+    display: block;
+    transform: scaleY(-1); /* flip vertically */
+    opacity: 0.4; /* fade effect */
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.4), transparent); /* fade-out mask */
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.4), transparent); /* for Safari */
+}
+
+#right img{
+  width: 103%;
+  margin-left: 2rem;
+}
+
+
+
+/* -------------- */
+/* third section */
+
+#thirdsection{
+    width: 100%;
+    height: fit-content;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+#maindiv img{
+    width: 100%;
+    margin-top: 3%;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}  
+
+.orange{
+    color: orange;
+}
+
+.marginright100{
+    margin-right: 50%;
+}
+
+#maindiv hr{
+    width: 15%;
+    margin-right: 100%;
+    border: 2px solid orange;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+#maindiv p{
+    margin-top: 6%;
+}
+
+.setmargin{
+    margin: 6rem 4rem;
+    
+}
+
+.left{
+    width: 35%;
+    height: 400px;
+}
+.right{
+    width: 40%;
+    height: 400px;
+}
+
+.smallheight{
+    height: 4rem;
+}
+
+.photo{
+    width: 20%;
+}
+
+.title{
+    width: 40%;
+}
+
+.icon{
+    width: 50% !important;
+    height: 50%;
+    border-radius: 50%;
+}
+.center{
+    margin-left: 1.5rem;
+    margin-top: 1rem !important;
+}
+
+/* Update your CSS for the fourth section */
+#forthdiv{
+    width: 100%;
+    height: 400px;
+}
+
+.centerp{
+    text-align: center;
+}
+
+.graybg{
+    background-color: lightgray;
+}
+
+.paddingp{
+    padding: 5%;
+}
+
+#forth {
+    h1{
+        margin-top: 7%;
+        text-align: center;
+    }
+
+    .smallhr{
+        width: 15%;
+        border: 2px solid orange;
+        border-radius: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    p{
+        text-align: ce;
+    }
+    .innerdiv{
+        margin-top: 2%;
+        width: 28%;
+        height: 350px;
+        padding: 1% 1%;
+    }
+    img{
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        margin: 10% 40%;
+    }
+}
+    /* ---------------------- */
+    .innerdivV2{
+        margin-top: 2%;
+        width: 28%;
+        height: 350px;
+        padding: 1% 4%;
+        box-sizing: border-box;
+
+    }
+    .iconv2{
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 50%;
+    margin-right: 5%;
+    margin: -3% -3% !important;
+    }
