@@ -4,6 +4,20 @@ body{
     height: 4000px;
 }
 
+
+:root{
+    --darkgray:#333333;
+    --orange: #ff8b38;
+    --white: #fff;
+    --large: 2.2rem;
+    --larger: 3rem;
+    --xlarge:5rem;
+    --thin: 400;
+    --mdfont:1.5rem;
+}
+
+/* general */
+
 .inlineblock{
     display: inline-block;
     vertical-align: top;
@@ -12,6 +26,25 @@ body{
 .backgroundtest{
     background-color: gray;
 }
+
+.lowerborder{
+    border-bottom: 3px solid lightgray;
+}
+
+.widehr{
+    color: lightgray;
+    margin-top:5%;
+}
+
+.orangebackground{
+    background-color: var(--orange);
+}
+
+.darkgraybackground{
+    background-color: rgb(65, 65, 65);
+}
+
+/* screen padding and margin */
 
 .uppadding{
     padding-top: 1%;
@@ -26,6 +59,35 @@ body{
     vertical-align: top;
 }
 
+.heightinpx{
+    height: 400px;
+}
+
+.margintopy{
+    margin-top: 9%;
+}
+
+.centerp{
+    text-align: center;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.h-400{
+    height: fit-content; 
+}
+.h-500{
+    height:fit-content;
+}
+
+.verticalalignbuttom{
+    vertical-align: bottom !important;
+}
+
+/* font */
+
 .bigfont{
     font-size: 1.5rem;
 }
@@ -34,21 +96,30 @@ body{
     font-family: "Inter", sans-serif;;
 }
 
-.muted{
-    color: rgb(193, 192, 192);
-}
-
-
 #first_div img{
   width: 49%;
   height: 6rem;
   margin-left: 3rem;
 }
 
-.lowerborder{
-    border-bottom: 3px solid lightgray;
+.muted{
+    color: rgb(193, 192, 192);
 }
 
+h2 , h3{
+    padding: 0%;
+    margin: 0%;   
+}
+
+.largerfont{
+    font-size: var(--larger);
+}
+
+.xlargefont{
+    font-size: var(--xlarge);
+}
+
+/* first page */
 #socialmedia{
     width: 30%;
     height: fit-content;
@@ -66,10 +137,6 @@ body{
     box-sizing: border-box;
 }
 
-.heightinpx{
-    height: 400px;
-}
-
 #left{
     width: 15%;
     box-sizing: border-box;
@@ -84,10 +151,6 @@ body{
     justify-content: flex-start;
 }
 
-h2 , h3{
-    padding: 0%;
-    margin: 0%;   
-}
 #middle p{
     line-height: 130%;
 }
@@ -105,10 +168,6 @@ h2 , h3{
     font-weight: 700;
     font-size: 1rem;
 }
-.widehr{
-    color: lightgray;
-    margin-top:5%;
-}
 
 .topbuttom{
         border-top-left-radius: 5px;
@@ -119,18 +178,6 @@ h2 , h3{
         border-bottom-right-radius: 5px;
 }
 
-.orangebackground{
-    background-color: orange;
-}
-
-.darkgraybackground{
-    background-color: rgb(65, 65, 65);
-}
-
-.margintopy{
-    margin-top: 9%;
-}
-
 #download{
     width: 30% !important;
     height: 3rem !important;
@@ -138,8 +185,6 @@ h2 , h3{
     margin-left: 0% !important;
     border-radius: 10px;
 }
-
-
 
 .main-img {
     display: block;
@@ -205,7 +250,6 @@ h2 , h3{
 
 .setmargin{
     margin: 6rem 4rem;
-    
 }
 
 .left{
@@ -234,6 +278,7 @@ h2 , h3{
     height: 50%;
     border-radius: 50%;
 }
+
 .center{
     margin-left: 1.5rem;
     margin-top: 1rem !important;
@@ -245,9 +290,6 @@ h2 , h3{
     height: 400px;
 }
 
-.centerp{
-    text-align: center;
-}
 
 .graybg{
     background-color: lightgray;
@@ -302,3 +344,72 @@ h2 , h3{
     margin-right: 5%;
     margin: -3% -3% !important;
     }
+
+
+
+    /* --------------------------------------- */
+
+.largefont{
+    font-size: var(--large);
+}
+
+.thinfont{
+    font-weight: var(--thin);
+}
+
+.upper-case{
+    text-transform: uppercase;
+}
+
+.container{
+    width: 90%;
+    margin:0 auto ;
+}
+
+.marginleft{
+    margin-left: 2%;
+}
+
+.smallmiddlehr{
+    width: 5%;
+    border: 2px solid orange;
+    border-radius: 5%;
+    margin: 2% auto;
+}
+
+.margindown3{
+    margin-bottom: 3%;
+}
+
+.lighttext{
+    color: var(--white);
+}
+
+.paddingtopbottom2{
+    padding: 2% 0;
+}
+
+.paddingtop{
+    padding-top:8%;
+}
+
+.middlebox{
+    margin-top: 2px;
+    padding-bottom: 4%;
+    border-bottom: 7px solid var(--orange);
+}
+
+.ullist{
+    list-style-type: none;
+    padding: 0%;
+    width: 100%;
+}
+.lielemt{
+    border-bottom: 2px solid lightgray;
+    margin-top:4%;
+    padding-bottom: 3%;
+}
+
+.shadow{
+    box-shadow: 0 0 5px gray;
+}
