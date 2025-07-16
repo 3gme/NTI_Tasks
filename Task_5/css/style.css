@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0% !important;
+    margin: 0% !important;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+div.li {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bg-page {
+    background-color: #F9F1E7;
+}
+
+.center-img-absolute {
+    bottom: 16%;
+    right: 19%;
+}
+
+.small-muted-text {
+    color: #919191;
+    font-size: 0.8rem;
+}
+
+.w-40 {
+    width: 45%;
+}
+
+.smalltxt {
+    font-size: 0.8rem;
+}
+
+.purple-circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #816DFA;
+}
+
+.black-circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.page-circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #B88E2F;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.counter button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.counter span {
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+div.tr tr {
+    height: 20px !important;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.Card {
+    width: 22% !important;
+    background-color: #F4F5F7;
+}
+
+.Card img {
+    width: 100%;
+}
+
+.Card-body {
+    padding: 3% !important;
+}
+.borderbutton{
+    width: 100%;
+    background-color: white;
+    color: #B88E2F;
+    border: 2px solid #B88E2F;
+    padding: 4% !important;
+}
+#footer{
+    background-color: #FFFFFF;
+}
